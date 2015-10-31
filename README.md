@@ -37,6 +37,7 @@ on your machine. Start your redis instance by double clicking on redis-server.ex
 Or
 
 sri7vasu@home:/var/www/angular/mean-jwt-rest-auth$ redis-server
+
                 _._                                                  
            _.-``__ ''-._                                             
       _.-``    `.  `_.  ''-._           Redis 2.8.9 (00000000/0) 64 bit
