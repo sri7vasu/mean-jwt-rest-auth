@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col-lg-12">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <strong>Signup</strong>
+      </div>
+      <div class="panel-body">
+        <form class="form-horizontal" role="form" name="registerForm">
+          <div ng-show="error" class="alert alert-danger">
+          {{error}}
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="username" name="username" placeholder="UserName" ng-model="register.username" required="required" autofocus="autofocus" data-ng-minlength="3" data-ng-maxlength="20">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="password" name="password" placeholder="Password" ng-model="register.password" required="required" autofocus="autofocus" data-ng-minlength="5" data-ng-maxlength="20">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPasswordConfirmation" class="col-sm-2 control-label">Password Confirmation</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="passwordConfirmation" name="passwordConfirmation" placeholder="Password" ng-model="register.passwordConfirmation" required="required" autofocus="autofocus" data-ng-minlength="5" data-ng-maxlength="20">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default" ng-click="register(register.username, register.password, register.passwordConfirmation)">Sign up</button>
+              <!-- data-ng-disabled="registerForm.$invalid" -->
+            </div>
+          </div>
+          <div ng-show="registerForm.$submitted && registerForm.$invalid && registerForm.$dirty" class="alert alert-danger"><strong>Please correct the following errors:</strong>
+            <ul>
+              <li ng-show="registerForm.username.$error.required">Username is required</li>
+              <li ng-show="registerForm.username.$error.minlength">Username has to be at least 3 character long</li>
+              <li ng-show="registerForm.username.$error.maxlength">Username has to be at most 20 character long</li>
+              <li ng-show="registerForm.password.$error.required">Password is required</li>
+              <li ng-show="registerForm.password.$error.minlength">Password must be at least 5 characters long</li>
+              <li ng-show="registerForm.password.$error.maxlength">Password must be at most 20 characters long</li>
+              <li ng-show="registerForm.passwordConfirmation.$error.minlength">Confirm Password must be at least 5 characters long</li>
+              <li ng-show="registerForm.passwordConfirmation.$error.maxlength">Confirm Password must be at most 20 characters long</li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

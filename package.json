@@ -1,0 +1,22 @@
+{
+  "name": "mean-jwt-rest-auth",
+  "Description": "MEAN stack RESTful application with Json Web Token authentication",
+  "version": "0.0.1",
+  "Author": "Srinivasa R Atta",
+  "Email": "sri7vasu@gmail.com",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.0.2",
+    "error-handler": "^0.1.4",
+    "express": "~4.1.1",
+    "express-error-handler": "^1.0.1",
+    "express-jwt": "^3.1.0",
+    "http-server":"^0.8.5",
+    "json": "^9.0.3",
+    "jsonwebtoken": "^5.0.5",
+    "method-override": "^1.0.0",
+    "mongoose": "^4.1.8",
+    "redis": "^2.0.1"
+  }
+}
