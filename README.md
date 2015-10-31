@@ -38,6 +38,7 @@ Or
 
 sri7vasu@home:/var/www/angular/mean-jwt-rest-auth$ redis-server
 
+
                 _._                                                  
            _.-``__ ''-._                                             
       _.-``    `.  `_.  ''-._           Redis 2.8.9 (00000000/0) 64 bit
@@ -55,6 +56,7 @@ sri7vasu@home:/var/www/angular/mean-jwt-rest-auth$ redis-server
       `-._    `-.__.-'    _.-'                                       
           `-._        _.-'                                           
               `-.__.-'                                               
+
 
 
 [13499] 31 Oct 15:25:54.165 # Server started, Redis version 2.8.9
