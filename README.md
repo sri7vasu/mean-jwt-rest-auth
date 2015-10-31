@@ -36,28 +36,7 @@ on your machine. Start your redis instance by double clicking on redis-server.ex
 
 Or
 
-sri7vasu@home:/var/www/angular/mean-jwt-rest-auth$ redis-server
-
-
-                _._                                                  
-           _.-``__ ''-._                                             
-      _.-``    `.  `_.  ''-._           Redis 2.8.9 (00000000/0) 64 bit
-  .-`` .-```.  ```\/    _.,_ ''-._                                   
- (    '      ,       .-`  | `,    )     Running in stand alone mode
- |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
- |    `-._   `._    /     _.-'    |     PID: 13499
-  `-._    `-._  `-./  _.-'    _.-'                                   
- |`-._`-._    `-.__.-'    _.-'_.-'|                                  
- |    `-._`-._        _.-'_.-'    |           http://redis.io        
-  `-._    `-._`-.__.-'_.-'    _.-'                                   
- |`-._`-._    `-.__.-'    _.-'_.-'|                                  
- |    `-._`-._        _.-'_.-'    |                                  
-  `-._    `-._`-.__.-'_.-'    _.-'                                   
-      `-._    `-.__.-'    _.-'                                       
-          `-._        _.-'                                           
-              `-.__.-'                                               
-
-
+/local path/$ redis-server
 
 [13499] 31 Oct 15:25:54.165 # Server started, Redis version 2.8.9
 [13499] 31 Oct 15:25:54.165 * The server is now ready to accept connections on port 6379
