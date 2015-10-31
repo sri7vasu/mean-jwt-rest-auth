@@ -7,7 +7,7 @@ articles/tutorials on the web:
 
 2.http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543 - https://github.com/huseyinbabal/token-based-auth-frontend (front end code is from here)
 
-Combined the above two solutions, customized a bit and added UI validations. Thanks to both the authors for the above articles.
+Combined the above two solutions, customized and added UI validations. Thanks to both the authors for the above articles.
 User will be shown Home,Signin,Signup if he/she is not registered/logged in , else Home,Me and Logout are shown.
 
 ## Dependencies
