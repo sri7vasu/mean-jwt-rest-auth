@@ -55,6 +55,7 @@ sri7vasu@home:/var/www/angular/mean-jwt-rest-auth$ redis-server
           `-._        _.-'                                           
               `-.__.-'                                               
 
+
 [13499] 31 Oct 15:25:54.165 # Server started, Redis version 2.8.9
 [13499] 31 Oct 15:25:54.165 * The server is now ready to accept connections on port 6379
 
