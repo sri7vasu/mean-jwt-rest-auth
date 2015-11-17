@@ -3,9 +3,9 @@
 mean-jwt-rest-auth is a RESTful authentication application with Json web tokens(JWT) based out of two of the best
 articles/tutorials on the web:
 
-1.http://www.kdelemme.com/2014/03/09/authentication-with-angularjs-and-a-node-js-rest-api/ - https://github.com/kdelemme/blogjs (Back end code is from here)
+1.http://www.kdelemme.com/2014/03/09/authentication-with-angularjs-and-a-node-js-rest-api/ - https://github.com/kdelemme/blogjs
 
-2.http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543 - https://github.com/huseyinbabal/token-based-auth-frontend (front end code is from here)
+2.http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543 - https://github.com/huseyinbabal/token-based-auth-frontend
 
 Combined the above two solutions, customized and added UI validations. Thanks to both the authors for the above articles.
 User will be shown Home,Signin,Signup if he/she is not registered/logged in , else Home,Me and Logout are shown.
